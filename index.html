@@ -4,33 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konstantin Bochkov</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+<header>
+    <div class="header-content">
         <h1>Konstantin Bochkov</h1>
         <p>Software Developer</p>
-    </header>
-
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a software developer passionate about backend development, procedural generation, and building efficient web APIs.</p>
-        </section>
-
-        <section id="links">
-            <h2>Links</h2>
-            <div class="links">
-                <a href="resume.pdf" target="_blank">Resume</a>
-                <a href="https://www.linkedin.com/in/konstantin-bochkov-13aa80122" target="_blank">LinkedIn</a>
-                <a href="https://github.com/kpbochkov" target="_blank">GitHub</a>
-            </div>
-        </section>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#about">About</a></li>
+                <li><a href="#current-work">Current Work</a></li>
+                <li><a href="#past-work">Past Work</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#links">Links</a></li>
+            </ul>
+        </nav>
     </div>
+</header>
 
-    <footer>
-        &copy; 2025 Konstantin Bochkov
-    </footer>
+<div class="container">
+    <section id="about">
+        <p>Hello! I am Konstantin Bochkov, a software engineer currently <a href="#current-work">working at A1</a> on their Border Crossing project for the Bulgarian government.
+            Previously, I <a href="#past-work">worked at Tinqin</a>, right after graduating from Telerik Academy with Java. I enjoy programming and have a deep passion for Java, though I’ve also explored
+            JavaScript, Python, and dabbled with Scheme. But at the end of the day—Java rules!</p>
+        <p>I’m grateful that at 36, I’m still an avid learner, and I hope my curiosity and passion for learning continue for a lifetime!
+            I strive to improve my <a href="#software-learning">software engineering skills</a> every day. Over the past two decades, my interests have also included
+            <a href="#other-learning">swimming</a>, <a href="#other-learning">chess</a>, and <a href="#other-learning">psychology</a>.
+            Recently, I’ve developed new passions for <a href="#other-learning">cycling</a> and the <a href="#other-learning">Chinese language</a>! If you’re curious about my journey, check out the <a href="#learning">My Learning</a> section.</p>
+    </section>
+
+    <section id="links" class="links">
+        <a href="resume.pdf" target="_blank">Resume</a>
+        <a href="https://www.linkedin.com/in/konstantin-bochkov-13aa80122" target="_blank">LinkedIn</a>
+        <a href="https://github.com/kpbochkov" target="_blank">GitHub</a>
+    </section>
+
+    <section id="current-work">
+        <h2>My Current Work</h2>
+        <p>The project digitalizes the Bulgarian border crossing system by implementing queue and traffic management services.
+            Built on Java 21, the coolest thing is that we developed it from scratch! Learn more in my <a href="resume.pdf" target="_blank">resume</a>.</p>
+    </section>
+
+    <section id="past-work">
+        <h2>My Past Work</h2>
+        <p>Before joining A1, I worked at Tinqin, where I gained valuable experience in software development and honed my Java skills.
+            My time there shaped my approach to writing clean, efficient code and collaborating on challenging projects.</p>
+    </section>
+
+    <section id="learning">
+        <h2 id="software-learning">Software Engineering Learning</h2>
+        <p>I’m constantly improving my skills as a software engineer. Learning software engineering is an endless, fun experience!
+            From the start, my goal has been to master the fundamentals deeply. I enjoy reading software engineering books and am following
+            Bozhidar Batsov’s recommended book list from his famous talk <a href="https://www.youtube.com/watch?v=H6OQ2RESp4s" target="_blank">(watch here)</a>—I’ve already completed over 50% of the list!</p>
+        <p>In 2023, I discovered an amazing free online course based on Berkeley’s CS61B—<a href="https://sp24.datastructur.es/" target="_blank">Data Structures and Algorithms</a>.
+            Last year, I explored these topics deeply and completed most of the course projects <a href="https://github.com/kpbochkov/cs61b-sp24" target="_blank">(check them out)</a>.
+            I also explored <a href="https://cs61a.org/" target="_blank">CS61A</a>, covering Scheme and Python with the famous book *Structure and Interpretation of Computer Programs*—quite a challenge for me!</p>
+        <p>My next goal is to dive into C through <a href="https://cs61c.org/sp25/" target="_blank">CS61C</a> and learn more about operating systems.</p>
+
+        <h2 id="other-learning">Other Interests</h2>
+        <ul>
+            <li><strong>Chess:</strong> I spent five years studying chess in my twenties, reading books, and learning from top players online. Now, I play occasionally for fun.</li>
+            <li><strong>Chinese Language:</strong> Currently studying Chinese with the goal of achieving HSK5 proficiency. It’s a fun challenge!</li>
+            <li><strong>Psychology:</strong> I studied Psychology at a French university, specializing in Work and Organizational Psychology. A lifelong passion!</li>
+            <li><strong>Swimming:</strong> After years of water polo, I realized my technique was awful! I now study swimming rigorously and analyze my strokes for improvement.</li>
+            <li><strong>Cycling:</strong> A newfound passion that keeps me active. Next challenge—bikepacking!</li>
+        </ul>
+    </section>
+</div>
 </body>
 </html>
+
+
+
 
