@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konstantin Bochkov</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Konstantin Bochkov</h1>
+        <p>Software Developer</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a software developer passionate about backend development, procedural generation, and building efficient web APIs.</p>
+        </section>
+
+        <section id="links">
+            <h2>Links</h2>
+            <div class="links">
+                <a href="resume.pdf" target="_blank">Resume</a>
+                <a href="https://www.linkedin.com/in/konstantin-bochkov-13aa80122" target="_blank">LinkedIn</a>
+                <a href="https://github.com/kpbochkov" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 Konstantin Bochkov
+    </footer>
+</body>
+</html>
